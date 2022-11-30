@@ -1,5 +1,5 @@
 .find-header__icons {
-  position: relative;
+  position: relative; /* 기준 */
 }
 
 .find__notification {

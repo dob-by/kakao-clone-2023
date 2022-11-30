@@ -63,3 +63,14 @@
 .user-component__time {
   margin-bottom: 10px;
 }
+
+.user-component:last-child {
+  position: relative;
+}
+
+.line-img {
+  position: absolute;
+  bottom: 52px;
+  left: 357px;
+  color: #2e363e;
+}

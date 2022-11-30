@@ -11,3 +11,21 @@
   bottom: 18px;
   left: 120px;
 }
+
+.phonenumber__notification {
+  color: tomato;
+  padding: 6px;
+}
+
+.user-phonenumber {
+  position: relative;
+}
+
+.phonenumber__exclamation {
+  color: tomato;
+  position: absolute;
+  left: 124px;
+  bottom: 8px;
+  font-size: 5px;
+  font-weight: 900;
+}
