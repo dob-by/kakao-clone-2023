@@ -1,0 +1,13 @@
+.finds-header__icons {
+  position: relative;
+}
+
+.finds__notification {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 18px;
+  left: 120px;
+}

@@ -8,7 +8,7 @@
   height: 4px;
   border-radius: 2px;
   position: absolute;
-  left: 45px;
+  left: 70px;
   bottom: 18px;
 }
 
@@ -55,4 +55,95 @@
   padding: 80px 20px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.open-chat__header span {
+  opacity: 0.5;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-post__title {
+  font-weight: 500;
+}
+
+.open-post__hashtag {
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 10px 0px;
+}
+
+.open-chat__active {
+  color: palevioletred;
+  padding-left: 5px;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.open-post__members {
+  display: flex;
+  font-size: 12px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/*open-post__member안에 있는 divider에만 적용*/
+
+.open-post__member-status {
+  color: #ffb0e0;
+}
+
+.open-post__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.open-post__column img {
+  width: 100px;
+  height: 100px;
+  border-radius: 7%;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__heart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  width: 30px;
+  position: absolute;
+  left: 50px;
+  bottom: 6px;
+  font-size: 6px;
+}
+
+.open-post__border {
+  border-top: var(--main-border);
+  margin: 10px 0px;
 }
