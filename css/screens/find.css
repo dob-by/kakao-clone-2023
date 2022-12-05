@@ -15,10 +15,9 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
-  width: 100%;
-  /*height: 100px;*/
-  padding-bottom: 25px;
+  /*box-sizing: border-box;*/
+  /*width: 100%;*/
+  padding: 20px 0px;
   border-bottom: var(--main-border);
 }
 
@@ -36,6 +35,7 @@
 
 .find-icons__icon span {
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .find-recommended {

@@ -8,6 +8,10 @@
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
+.nav__btn {
+  position: relative;
+}
+
 .nav__list {
   display: flex;
   justify-content: space-between;
@@ -22,4 +26,13 @@
   position: absolute;
   left: 12px;
   bottom: 10px;
+}
+
+.nav-ellipsis__notification {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 15px;
 }

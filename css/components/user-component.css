@@ -65,12 +65,9 @@
 }
 
 .user-component:last-child {
-  position: relative;
+  color: #2e363e;
 }
 
-.line-img {
-  position: absolute;
-  bottom: 52px;
-  left: 357px;
+.user-component__msg {
   color: #2e363e;
 }
