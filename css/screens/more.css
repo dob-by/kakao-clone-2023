@@ -39,7 +39,6 @@
   padding-top: 5px;
   padding-bottom: 20px;
   border-bottom: var(--main-border);
-  position: relative;
 }
 
 .more-icons__icon {
@@ -89,7 +88,11 @@
 }
 
 .more-main__contentsub div {
-  margin-bottom: 6px;
+  padding-bottom: 6px;
+}
+
+.more-icons__talkdrive {
+  position: relative;
 }
 
 .more__notification {
@@ -98,19 +101,8 @@
   height: 6px;
   border-radius: 3px;
   position: absolute;
-  left: 170px;
-  bottom: 205px;
-}
-
-.more-main__kakaostory {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--yellow);
-  color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  margin-bottom: 8px;
-  font-size: 30px;
+  /*left: 70px;
+  bottom: 10px;*/
+  left: 185px;
+  bottom: 1px;
 }
