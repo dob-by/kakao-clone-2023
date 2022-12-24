@@ -4,11 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .alt-header__title {
   font-size: 20px;
   font-weight: 600;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 12px;
 }
 
 .alt-header__column:first-child {
@@ -17,4 +22,8 @@
 
 .alt-header__column:last-child {
   margin-left: auto;
+}
+
+.alt-header__column:last-child i {
+  margin-left: 10px;
 }
