@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.settings-header__div header {
+  background-color: white;
+}
+
 .settings__setting-column {
   position: relative;
 }
@@ -28,6 +32,12 @@
 
 .settings__setting:first-child {
   padding-top: 30px;
+}
+
+.settings-main__screen {
+  padding-top: 71px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .settings__display-notification {
