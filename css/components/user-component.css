@@ -102,16 +102,16 @@ user-component__main img {
 .user-component .fa-cake-candles {
   color: white;
   position: absolute;
-  bottom: 30px;
-  left: 22px;
+  bottom: 15px;
+  left: 16px;
   font-size: 23px;
 }
 
 .user-component .fa-face-smile-wink {
   color: white;
   position: absolute;
-  bottom: 29px;
-  left: 21px;
+  bottom: 13px;
+  left: 14px;
   font-size: 23px;
 }
 
@@ -125,6 +125,7 @@ user-component__main img {
   display: flex;
   justify-content: center;
   margin-left: 7px;
+  position: relative;
 }
 
 .user-component__column span {
@@ -161,6 +162,7 @@ user-component__main img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .user-component__text h4 {
