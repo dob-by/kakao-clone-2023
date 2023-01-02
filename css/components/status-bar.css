@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: #dfd3c3;
 }
 
 .status-bar__column {

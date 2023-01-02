@@ -1,9 +1,14 @@
 .screen-header {
   display: flex;
+  width: 100%;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   padding: 40px 25px 15px var(--horizontal-space);
   margin-bottom: 5px;
+  background-color: #dfd3c3;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
 .screen-header__title {
@@ -32,4 +37,17 @@ h1 {
 #friends-display-link span:nth-child(3) {
   margin: 0px 0px 0px 10px;
   color: lightgray;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
 }
