@@ -87,6 +87,7 @@
   border-top-left-radius: 0px;
   margin: 10px 5px 0px 0px;
   font-size: 15px;
+  border: 2px dashed #9f8473;
 }
 
 .chatting-user__time {
@@ -115,7 +116,8 @@
 }
 
 .chatting-screen__ans {
-  background-color: var(--yellow);
+  background-color: #9f8472;
+  color: white;
   width: 90px;
   height: 20px;
   border-radius: 14px;
@@ -127,6 +129,7 @@
   margin-left: 5px;
   margin-right: 10px;
   border-top-right-radius: 0px;
+  border: 2px dashed #6b5c54;
 }
 
 .chatting-screen__anstime {
@@ -174,7 +177,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: #6b5c54;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -184,6 +187,7 @@
   border-width: 0.1px;
   border-color: rgba(0, 0, 0, 0.03);
   font-size: 16px;
+  color: #dfd3c3;
 }
 
 .reply__column:last-child > i,

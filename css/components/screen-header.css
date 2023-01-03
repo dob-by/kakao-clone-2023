@@ -12,8 +12,17 @@
 }
 
 .screen-header__title {
+  display: flex;
+}
+
+.screen-header__title img {
+  background-color: #dfd3c3;
+}
+
+.screen-header__titlename {
   font-size: 28px;
   font-weight: 600;
+  margin-right: 10px;
 }
 
 .screen-header__icons span {

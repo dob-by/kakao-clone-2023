@@ -6,12 +6,18 @@
   height: 90px;
 }
 
+.screen-header img {
+  width: 30px;
+  height: 30px;
+}
+
 #friends-display-link {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
   font-size: 14px;
   margin-top: -5px;
+  background-color: whitesmoke;
 }
 
 .friends-screen {
@@ -33,38 +39,85 @@
 
 #splash-screen {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   top: 0;
   z-index: 99;
-  font-size: 80px;
-  background-color: white;
+  font-size: 30px;
+  background: linear-gradient(0deg, #c8b199, white, #c8b199);
   animation: hideSplashScreen 0.4s ease-in-out 2s forwards;
 }
 
-/*#splash-screen i {
-  display: flex;
+#splash-screen img {
   justify-content: center;
   align-items: center;
-}*/
+  width: 90px;
+  height: 170px;
+}
 
-.screen-top {
-  width: 100%;
-  height: 30px;
-  background-color: #dfd3c3;
+#splash-screen__main {
+  display: flex;
+  position: relative;
+}
+
+.cat-comment {
+  position: absolute;
+  bottom: 11px;
+  left: 13px;
+  font-size: 130px;
+}
+
+.screen-text span {
+  position: relative;
+  bottom: 45px;
+  left: 30px;
+  color: white;
+  font-size: 47px;
+  z-index: 100;
+  font-family: "Nunito", sans-serif;
+}
+
+.screen-text span:first-child {
+  font-size: 42px;
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+  font-family: "Dongle", sans-serif;
+}
+
+.fa-heart {
+  color: #f03626;
+  z-index: 99;
+  position: absolute;
+  bottom: 98px;
+  left: 85px;
+  font-size: 18px;
 }
 
 .screen-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  position: relative;
 }
 
-.screen-bottom {
-  width: 100%;
-  height: 30px;
-  background-color: #dfd3c3;
-  bottom: 0;
+.splash-animation {
+  animation: movingBubble 2s ease-in-out infinite;
+}
+
+@keyframes movingBubble {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 @keyframes hideSplashScreen {
