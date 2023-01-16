@@ -50,6 +50,10 @@
   padding: 20px;
 }
 
+.more-icons__icon:hover {
+  color: tomato;
+}
+
 .more-icons__icon i {
   font-size: 27px;
 }

@@ -29,6 +29,10 @@
   /*text-align: left;*/
 }
 
+.find-icons__icon:hover {
+  color: tomato;
+}
+
 .find-icons__icon i {
   font-size: 27px;
 }
@@ -105,7 +109,7 @@
 /*open-post__member안에 있는 divider에만 적용*/
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: tomato;
 }
 
 .open-post__column {
@@ -135,12 +139,19 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  padding: 5px 10px;
+  padding: 5px 7px 5px 10px;
   width: 30px;
   position: absolute;
   left: 50px;
   bottom: 6px;
   font-size: 6px;
+}
+
+.open-post__heart-icon i {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
 }
 
 .open-post__heart-icon span {
